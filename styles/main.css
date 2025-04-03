@@ -35,7 +35,7 @@ header .logo-brand .logo {
 }
 
 header .logo-brand .git-tag-line {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 }
 
 header .controls {
@@ -73,4 +73,36 @@ header .controls input {
     height: 2rem;
     font-size: 1.4rem;
     transform: rotateY('180deg');
+}
+
+.hero-section {
+    margin-bottom: 2em;
+    background: url(https://git-scm.com//images/bg/isometric-grid.png) 100% 0 repeat;
+    background-size: 35px 21px;
+}
+
+
+section .main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+
+}
+
+section .main-container .hero-text-area {
+    position: relative;
+
+}
+
+section .main-container .hero-text-area p {
+    font-size: 1.4rem;
+    color: var(--text-dark);
+    line-height: 1.5;
+}
+
+section .main-container .hero-background-img {
+
+    width: 389px;
+    height: 251px;
 }
