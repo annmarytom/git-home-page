@@ -136,6 +136,14 @@ section .main-container .hero-background-img {
 
 }
 
+.navigation-contents nav .division1 img {
+    filter: brightness(90%);
+}
+
+.navigation-contents nav .division1 img:hover {
+    filter: brightness(70%);
+}
+
 .inner-contents .navigation-contents nav .row1 ul {
     display: flex;
     flex-direction: row;
