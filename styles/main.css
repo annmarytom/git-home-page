@@ -119,6 +119,7 @@ section .main-container .hero-background-img {
     flex-direction: row;
     gap: 70px;
     flex-wrap: nowrap;
+
 }
 
 .contents-area {
@@ -149,6 +150,7 @@ section .main-container .hero-background-img {
     flex-direction: row;
     gap: 2.5rem;
     list-style: none;
+    padding-left: 0;
 }
 
 .inner-contents .navigation-contents nav .row2 ul {
@@ -156,14 +158,10 @@ section .main-container .hero-background-img {
     flex-direction: row;
     gap: 2.5rem;
     list-style: none;
+    padding-left: 0;
 }
 
-.pro-git-book {
-    display: flex;
-    gap: 0.5rem;
-    font-size: 14px;
-    line-height: 22px;
-}
+
 
 nav .row1 .division1 {
     display: flex;
@@ -205,4 +203,27 @@ ul li a .division1 .description p {
     font-size: 15px;
     line-height: 17.6px;
     color: #4E443C;
+}
+
+.navigation-contents .pro-git-book {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: Adelle, "Roboto Slab", "DejaVu Serif", Georgia, "Times New Roman", sans-serif;
+}
+
+.navigation-contents .pro-git-book .pro-git-link {
+    color: #0388A6;
+    font-weight: 700;
+}
+
+.navigation-contents .pro-git-book .pro-git-link p {
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0px 0px 11px;
+}
+
+.narrow-pro-git-link {
+    color: #0388A6;
 }
