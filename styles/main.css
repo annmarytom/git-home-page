@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
@@ -8,6 +9,7 @@ body {
     font-family: "roboto slab", 'Times New Roman', Times, serif;
     font-size: 70%;
     background-color: #f5f5f3;
+
 }
 
 .container {
@@ -80,18 +82,12 @@ header .controls input {
     margin-bottom: 2em;
     background: url(https://git-scm.com//images/bg/isometric-grid.png) 100% 0 repeat;
     background-size: 35px 21px;
-
-
 }
-
 
 section .main-container {
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
     padding: 2rem;
-
-
 }
 
 section .main-container .hero-text-area {
@@ -100,7 +96,7 @@ section .main-container .hero-text-area {
 }
 
 section .main-container .hero-text-area p {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     color: var(--text-dark);
     line-height: 1.5;
 }
@@ -112,29 +108,46 @@ section .main-container .hero-background-img {
 }
 
 .main-content-area {
-    width: 50%;
-    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    justify-content: space-between;
 }
 
 .inner-contents {
     display: flex;
     flex-direction: row;
+    gap: 70px;
+    flex-wrap: nowrap;
+}
 
+.contents-area {
+    margin: 0 auto 0 auto;
+}
+
+.navigation-contents {
+    border-right: 1px solid #ccc;
+    padding: 0px 40px 0px 40px;
 }
 
 .navigation-contents nav {
     display: flex;
     flex-direction: column;
+
 }
 
-.navigation-contents nav .row1 ul {
+.inner-contents .navigation-contents nav .row1 ul {
     display: flex;
     flex-direction: row;
+    gap: 2.5rem;
+    list-style: none;
 }
 
-nav .row2 {
+.inner-contents .navigation-contents nav .row2 ul {
     display: flex;
     flex-direction: row;
+    gap: 2.5rem;
+    list-style: none;
 }
 
 .pro-git-book {
@@ -147,9 +160,41 @@ nav .row2 {
 nav .row1 .division1 {
     display: flex;
     flex-direction: row;
+    gap: 15px;
+}
+
+nav .row1 .division1 img {
+    width: 74px;
+    height: 74px;
+}
+
+nav .row2 .division1 img {
+    width: 74px;
+    height: 74px;
 }
 
 nav .row2 .division1 {
     display: flex;
     flex-direction: row;
+    gap: 15px;
+
+}
+
+ul .division1 .description {
+    line-height: 17.6px;
+    font-size: 14px;
+
+}
+
+ul li a .division1 .description h2 {
+    line-height: 1px;
+    color: #F14E32;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+ul li a .division1 .description p {
+    font-size: 15px;
+    line-height: 17.6px;
+    color: #4E443C;
 }
