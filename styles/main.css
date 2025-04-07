@@ -9,7 +9,16 @@
     --hover-on-dark: #161615;
 }
 
-
+:root.darkmode{
+    --primary-color: #0288A7;
+    --secondary-color: #F24E32;
+    --background-color: #2a2a2a;
+    --text-dark: #413932;
+    --text-light: #9A9994;
+    --font-color: #b3b1b1;
+    --link-hover-color:#d2743a;
+    --hover-on-dark: #161615;
+}
 * {
     box-sizing: border-box;
     text-decoration: none;
@@ -50,7 +59,8 @@ header .logo-brand .logo {
 }
 
 header .logo-brand .git-tag-line {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    font-family: "roboto slab", 'Times New Roman', Times, serif;;
 }
 
 header .controls {
