@@ -1,3 +1,15 @@
+:root {
+    --primary-color: #0288A7;
+    --secondary-color: #F24E32;
+    --background-color: #f5f5f3;
+    --text-dark: #413932;
+    --text-light: #9A9994;
+    --font-color: #4e443c;
+    --link-hover-color: #04b1d8;
+    --hover-on-dark: #161615;
+}
+
+
 * {
     box-sizing: border-box;
     text-decoration: none;
@@ -8,7 +20,7 @@ body {
     padding: 0;
     font-family: "roboto slab", 'Times New Roman', Times, serif;
     font-size: 70%;
-    background-color: #f5f5f3;
+    background-color: var(--background-color);
 
 }
 
@@ -97,8 +109,14 @@ section .main-container .hero-text-area {
 
 section .main-container .hero-text-area p {
     font-size: 1.3rem;
-    color: var(--text-dark);
+    color: var(--font-color);
     line-height: 1.5;
+}
+
+section .main-container .hero-text-area p a {
+
+    color: var(--link-hover-color);
+
 }
 
 section .main-container .hero-background-img {
@@ -161,8 +179,6 @@ section .main-container .hero-background-img {
     padding-left: 0;
 }
 
-
-
 nav .row1 .division1 {
     display: flex;
     flex-direction: row;
@@ -194,7 +210,7 @@ ul .division1 .description {
 
 ul li a .division1 .description h2 {
     line-height: 1px;
-    color: #F14E32;
+    color: var(--secondary-color);
     font-weight: 700;
     font-size: 18px;
 }
@@ -202,7 +218,7 @@ ul li a .division1 .description h2 {
 ul li a .division1 .description p {
     font-size: 15px;
     line-height: 17.6px;
-    color: #4E443C;
+    color: var(--font-color);
 }
 
 .navigation-contents .pro-git-book {
@@ -311,6 +327,7 @@ table {
     align-items: center;
     justify-items: center;
     grid-template-columns: auto auto auto auto;
+    list-style: none;
 }
 
 .companies-and-projects ul li {
@@ -345,12 +362,12 @@ footer .footer-left {
 
 footer .footer-left a {
     font-size: 12px;
-    color: #403F3c;
+    color: var(--font-color);
     font-size: 14px;
 }
 
 footer .footer-left a:hover {
-    color: #161615;
+    color: var(--hover-on-dark);
 }
 
 
@@ -361,11 +378,10 @@ footer .footer-right {
 
 footer .footer-right a {
     font-size: 12px;
-    color: #403F3c;
+    color: var(--font-color);
     font-size: 14px;
 }
 
 footer .footer-right p a:hover {
-    color: #161615;
-    cursor: pointer;
+    color: var(--hover-on-dark);
 }
