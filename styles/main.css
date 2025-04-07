@@ -227,3 +227,97 @@ ul li a .division1 .description p {
 .narrow-pro-git-link {
     color: #0388A6;
 }
+
+.download-section {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.download-section .monitor {
+    background: url(https://git-scm.com//images/monitor-windows.png);
+    width: 310px;
+    height: 240px;
+    padding-top: 45px;
+    padding-left: 40px;
+    color: var(--main-bg);
+
+}
+
+.download-section .monitor .monitor-display-info {
+    color: white;
+    line-height: 0.1rem;
+
+
+}
+
+.download-section .monitor .monitor-display-info p {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.download-section .monitor .monitor-display-info h3 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.download-section .monitor .monitor-display-info a {
+    color: rgb(238, 238, 238);
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.download-section .display-button {
+    box-shadow: rgb(20, 138, 146) 0px 1px;
+    display: block;
+    width: 224px;
+    font-size: 16px;
+    text-align: center;
+    background: linear-gradient(rgb(28, 134, 140), rgb(24, 99, 104));
+    border-radius: 2px;
+    padding: 5px 0px;
+    border-top: 1px solid rgb(8, 94, 100);
+    border-right: 1px solid rgb(31, 99, 103);
+    border-bottom: 1px solid rgb(19, 65, 67);
+    border-left: 1px solid rgb(31, 99, 103);
+    text-decoration: none;
+}
+
+.display-button:hover {
+    cursor: pointer;
+    background: rgb(24, 99, 104);
+}
+
+table {
+    display: table;
+    box-sizing: border-box;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    border-spacing: 2px;
+    border-color: gray;
+    border-collapse: collapse;
+    display: table-row-group;
+}
+
+.companies-and-projects h3 {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    color: #4E443C;
+}
+
+.companies-and-projects ul {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: auto auto auto auto;
+}
+
+.companies-and-projects ul li {
+    margin: 1.3rem;
+    filter: brightness(100%);
+}
+
+.companies-and-projects ul li:hover {
+    filter: brightness(97%);
+}
